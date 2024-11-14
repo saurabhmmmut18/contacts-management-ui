@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Setup Instructions
+
+Install dependencies:
+npm install
+
+Run the Angular application:
+ng serve
+
+The Angular app will be available at http://localhost:4200.
+
+## Application Features
+View Contacts: Displays contacts in a paginated table.
+Add/Edit Contacts: A form modal for adding or updating contact details.
+Delete Contacts: Remove contacts directly from the list.
+Pagination: View contacts across multiple pages.
+
+## Folder Structure
+src/app/components: Contains ContactsComponent, ContactTableComponent, and ContactFormComponent.
+src/app/services: Contains ContactService, handling HTTP requests.
+src/app/models: Contains the Contact model defining contact structure.
+
+## Summary
+The Angular frontend is built for ease of use and scalability, with a responsive interface and modular components.
